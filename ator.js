@@ -1,8 +1,9 @@
 //código do ator
 let yAtor = 366;
+let xAtor = 100;
 
 function mostraAtor() {
-    image(imagemDoAtor, 100, yAtor, 30, 30);
+    image(imagemDoAtor, xAtor, yAtor, 30, 30);
 }
 
 function movimentaAtor() {
@@ -13,3 +14,4 @@ function movimentaAtor() {
         yAtor += 3;
     }
 }
+
