@@ -3,7 +3,7 @@ let yAtor = 366;
 let xAtor = 100;
 
 function mostraAtor() {
-    image(imagemDoAtor, xAtor, yAtor, 30, 30);
+    image(imagemAtor, xAtor, yAtor, 30, 30);
 }
 
 function movimentaAtor() {
